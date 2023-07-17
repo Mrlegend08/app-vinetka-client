@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>View html</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__wrapper">
+                <a class="site-header__logo-link" href="./index.html">
+                    <img class="site-header__logo-img" src="https://placehold.co/150x50" alt="Site logo">
+                </a>
+                <button class="btn site-header__burger-btn" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <img src="assets/icons/burger.svg" alt="">
+                </button>
+                <nav class="site-header__navbar">
+                    <ul class="site-header__nav-list">
+                        <li class="site-header__nav-item">
+                            <a class="site-header__nav-link" href="#">
+                                <img class="site-header__location-img" src="assets/icons/location.png"
+                                    alt="location img" width="30" height="30">
+                                <div class="d-flex flex-column">
+                                    <span class="site-header__location-text">Farg`ona, O`zbekiston</span>
+                                    <strong class="site-header__location-city">Du-Ju: 10.00 - 20.00</strong>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="site-header__nav-item">
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="site-header__phone-img" src="assets/icons/phone.png" alt="phone img"
+                                    width="30" height="30">
+                                <div class="d-flex flex-column">
+                                    <a class="site-header__phone-link" href="tel:+998 99 999 99 99"><strong>+998 99
+                                            999 99 99</strong></a>
+                                    <a class="site-header__phone-link" href="tel:+998 99 999 99 99"><strong>+998 88
+                                            888 88 88</strong></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="site-header__nav-item">
+                            <a class="site-header__vinetka" href="./index.html">Vinetkalarni ko`rish</a>
+                        </li>
+                        <li class="site-header__nav-item">
+                            <div class="d-flex gap-3">
+                                <a class="site-header__social-network" href="https://www.instagram.com/">
+                                    <svg width="30" height="30" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.875 4.66406C11.0898 4.66406 12.918 6.49219 12.918 8.70703C12.918 10.957 11.0898 12.75 8.875 12.75C6.625 12.75 4.83203 10.957 4.83203 8.70703C4.83203 6.49219 6.625 4.66406 8.875 4.66406ZM8.875 11.3438C10.3164 11.3438 11.4766 10.1836 11.4766 8.70703C11.4766 7.26562 10.3164 6.10547 8.875 6.10547C7.39844 6.10547 6.23828 7.26562 6.23828 8.70703C6.23828 10.1836 7.43359 11.3438 8.875 11.3438ZM14.0078 4.52344C14.0078 5.05078 13.5859 5.47266 13.0586 5.47266C12.5312 5.47266 12.1094 5.05078 12.1094 4.52344C12.1094 3.99609 12.5312 3.57422 13.0586 3.57422C13.5859 3.57422 14.0078 3.99609 14.0078 4.52344ZM16.6797 5.47266C16.75 6.77344 16.75 10.6758 16.6797 11.9766C16.6094 13.2422 16.3281 14.332 15.4141 15.2812C14.5 16.1953 13.375 16.4766 12.1094 16.5469C10.8086 16.6172 6.90625 16.6172 5.60547 16.5469C4.33984 16.4766 3.25 16.1953 2.30078 15.2812C1.38672 14.332 1.10547 13.2422 1.03516 11.9766C0.964844 10.6758 0.964844 6.77344 1.03516 5.47266C1.10547 4.20703 1.38672 3.08203 2.30078 2.16797C3.25 1.25391 4.33984 0.972656 5.60547 0.902344C6.90625 0.832031 10.8086 0.832031 12.1094 0.902344C13.375 0.972656 14.5 1.25391 15.4141 2.16797C16.3281 3.08203 16.6094 4.20703 16.6797 5.47266ZM14.9922 13.3477C15.4141 12.3281 15.3086 9.86719 15.3086 8.70703C15.3086 7.58203 15.4141 5.12109 14.9922 4.06641C14.7109 3.39844 14.1836 2.83594 13.5156 2.58984C12.4609 2.16797 10 2.27344 8.875 2.27344C7.71484 2.27344 5.25391 2.16797 4.23438 2.58984C3.53125 2.87109 3.00391 3.39844 2.72266 4.06641C2.30078 5.12109 2.40625 7.58203 2.40625 8.70703C2.40625 9.86719 2.30078 12.3281 2.72266 13.3477C3.00391 14.0508 3.53125 14.5781 4.23438 14.8594C5.25391 15.2812 7.71484 15.1758 8.875 15.1758C10 15.1758 12.4609 15.2812 13.5156 14.8594C14.1836 14.5781 14.7461 14.0508 14.9922 13.3477Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                                <a class="site-header__social-network" href="https://www.telegram.org/">
+                                    <svg width="30" height="30" viewBox="0 0 17 15" fill="black"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.6797 2.1875L14.3242 13.4023C14.1484 14.1758 13.6562 14.3867 12.9883 14L9.36719 11.3281L7.64453 13.0156C7.43359 13.2266 7.29297 13.3672 6.90625 13.3672L7.15234 9.67578L13.8672 3.62891C14.1836 3.38281 13.7969 3.20703 13.4102 3.48828L5.11328 8.69141L1.5625 7.60156C0.789062 7.35547 0.753906 6.82812 1.70312 6.44141L15.6953 1.0625C16.3281 0.816406 16.8906 1.20312 16.6797 2.1875Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h1 class="view-page__title"> 1 chi sinflar uchun vinetka andozasi </h1>
+    <div id="carouselExampleCaptions" class="carousel  slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://placehold.co/1366x530" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>20 sm</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://placehold.co/1366x530" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>21 sm</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://placehold.co/1366x530" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1366/530" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>22.5 sm</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="site-footer__wrapper">
+                <div class="site-footer__start">
+                    <div class="site-footer__logo-block">
+                        <a class="site-footer__logo-link" href="./index.html">
+                            <img class="site-footer__logo-img" src="https://placehold.co/150x50" alt="Site logo">
+                        </a>
+                        <a class="site-footer__home" href="./index.html">Asosiy sahifa</a>
+                    </div>
+                    <ul class="site-footer__list">
+                        <li class="site-footer__item">
+                            <span class="site-footer__item-text">Farg`ona, O`zbekiston</span>
+                            <span class="site-footer__item-text">Du-Ju: 10.00 - 20.00</span>
+                            <a class="site-footer__item-text" href="tel:+998 99 999 99 99">Aloqa: +998 99
+                                999 99 99</a>
+                            <a class="site-footer__item-text" href="tel:+998 88 888 88 88">Aloqa: +998 88
+                                888 88 88</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="site-footer__end">
+                    <div class="site-footer__social">
+                        <a class="site-footer__social-links" href="http://www.instagram.com">
+                            <img src="assets/icons/instagram.svg" alt="Instagram icon">
+                        </a>
+                        <a class="site-footer__social-links" href="http://www.telegram.org">
+                            <img src="assets/icons/telegram.svg" alt="Telegram icon">
+                        </a>
+                    </div>
+                    <span class="avtor">Copyright 2023 by RTM</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <a class="site-header__logo-link" href="./index.html">
+                <img class="site-header__logo-img" src="https://placehold.co/150x50" alt="Site logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="site-header__burger-list d-flex flex-column gap-3 p-0 m-0 align-items-center">
+                <li class="site-header__burger-item">
+                    <a class="site-header__burger-link d-flex gap-2 align-items-center text-decoration-none" href="#">
+                        <img class="site-header__location-img" src="assets/icons/location.png" alt="location img"
+                            width="30" height="30">
+                        <div class="d-flex flex-column">
+                            <span class="site-header__location-text">Farg`ona, O`zbekiston</span>
+                            <strong class="site-header__location-city">Du-Ju: 10.00 - 20.00</strong>
+                        </div>
+                    </a>
+                </li>
+                <li class="site-header__burger-item">
+                    <div class="d-flex align-items-center gap-2">
+                        <img class="site-header__phone-img" src="assets/icons/phone.png" alt="phone img" width="30"
+                            height="30">
+                        <div class="d-flex flex-column">
+                            <a class="site-header__phone-link" href="tel:+998 99 999 99 99"><strong>+998 99
+                                    999 99 99</strong></a>
+                            <a class="site-header__phone-link" href="tel:+998 99 999 99 99"><strong>+998 88
+                                    888 88 88</strong></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="site-header__burger-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <a class="site-header__vinetka" href="./index.html">Vinetkalarni ko`rish</a>
+                </li>
+                <li class="site-header__burger-item">
+                    <div class="d-flex gap-3">
+                        <a class="site-header__social-network" href="https://www.instagram.com/">
+                            <svg width="30" height="30" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.875 4.66406C11.0898 4.66406 12.918 6.49219 12.918 8.70703C12.918 10.957 11.0898 12.75 8.875 12.75C6.625 12.75 4.83203 10.957 4.83203 8.70703C4.83203 6.49219 6.625 4.66406 8.875 4.66406ZM8.875 11.3438C10.3164 11.3438 11.4766 10.1836 11.4766 8.70703C11.4766 7.26562 10.3164 6.10547 8.875 6.10547C7.39844 6.10547 6.23828 7.26562 6.23828 8.70703C6.23828 10.1836 7.43359 11.3438 8.875 11.3438ZM14.0078 4.52344C14.0078 5.05078 13.5859 5.47266 13.0586 5.47266C12.5312 5.47266 12.1094 5.05078 12.1094 4.52344C12.1094 3.99609 12.5312 3.57422 13.0586 3.57422C13.5859 3.57422 14.0078 3.99609 14.0078 4.52344ZM16.6797 5.47266C16.75 6.77344 16.75 10.6758 16.6797 11.9766C16.6094 13.2422 16.3281 14.332 15.4141 15.2812C14.5 16.1953 13.375 16.4766 12.1094 16.5469C10.8086 16.6172 6.90625 16.6172 5.60547 16.5469C4.33984 16.4766 3.25 16.1953 2.30078 15.2812C1.38672 14.332 1.10547 13.2422 1.03516 11.9766C0.964844 10.6758 0.964844 6.77344 1.03516 5.47266C1.10547 4.20703 1.38672 3.08203 2.30078 2.16797C3.25 1.25391 4.33984 0.972656 5.60547 0.902344C6.90625 0.832031 10.8086 0.832031 12.1094 0.902344C13.375 0.972656 14.5 1.25391 15.4141 2.16797C16.3281 3.08203 16.6094 4.20703 16.6797 5.47266ZM14.9922 13.3477C15.4141 12.3281 15.3086 9.86719 15.3086 8.70703C15.3086 7.58203 15.4141 5.12109 14.9922 4.06641C14.7109 3.39844 14.1836 2.83594 13.5156 2.58984C12.4609 2.16797 10 2.27344 8.875 2.27344C7.71484 2.27344 5.25391 2.16797 4.23438 2.58984C3.53125 2.87109 3.00391 3.39844 2.72266 4.06641C2.30078 5.12109 2.40625 7.58203 2.40625 8.70703C2.40625 9.86719 2.30078 12.3281 2.72266 13.3477C3.00391 14.0508 3.53125 14.5781 4.23438 14.8594C5.25391 15.2812 7.71484 15.1758 8.875 15.1758C10 15.1758 12.4609 15.2812 13.5156 14.8594C14.1836 14.5781 14.7461 14.0508 14.9922 13.3477Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                        <a class="site-header__social-network" href="https://www.telegram.org/">
+                            <svg width="30" height="30" viewBox="0 0 17 15" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.6797 2.1875L14.3242 13.4023C14.1484 14.1758 13.6562 14.3867 12.9883 14L9.36719 11.3281L7.64453 13.0156C7.43359 13.2266 7.29297 13.3672 6.90625 13.3672L7.15234 9.67578L13.8672 3.62891C14.1836 3.38281 13.7969 3.20703 13.4102 3.48828L5.11328 8.69141L1.5625 7.60156C0.789062 7.35547 0.753906 6.82812 1.70312 6.44141L15.6953 1.0625C16.3281 0.816406 16.8906 1.20312 16.6797 2.1875Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/view.js"></script>
+</body>
+
+</html>
